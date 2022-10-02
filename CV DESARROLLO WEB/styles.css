@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;        
+}
+
+.topnav{
+       display:flex;
+       justify-content: space-between;
+       padding: 10px;
+       margin-bottom: 5px; 
+       
+}
+.topheader{
+       box-shadow: 0 4px 5px rgb(3, 3, 3);
+       align-items: center;
+       justify-content: space-between;
+       float:right;
+       margin-bottom: 20px;
+}
+
+.logo{
+       text-decoration: none;
+       display: flex;
+       align-items: center;
+       font-size: 18px;
+       font-weight: 500;
+       
+       
+       
+}
+
+.nombre__tomas{
+  color: rgb(38, 38, 38);
+
+}
+
+.logo img{
+       border-radius: 50%;
+       align-items: center;
+}
+
+body {
+       background: rgb(193, 186, 186);
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+header{
+       background: white;
+       width: 100%;
+       clear: both;
+       content:'';
+       display: table;
+       
+}
+
+.menu{
+       display: flex;
+       list-style: none;
+       width: 900px;
+       margin: 10px auto;
+       padding: 5px;
+       font-size: 20px;
+}
+
+img {
+       position: center;
+       float: left;
+       padding: 0px;
+}
+
+
+
+nav ul li {
+       list-style-type: none;
+       margin-left: 75px;
+       padding:12px 0;
+       position:relative;
+       
+}
+
+nav ul li a {
+
+       text-decoration: none;
+       color: black;
+       font-weight: bold;
+       
+       
+       
+}
+
+nav ul li a::before{
+       display: block;
+       content: '';
+       width:0%;
+       background: #444;
+       height: 5px;
+       top:0;
+       position: absolute;
+       transition: width 1s;
+}
+
+nav ul li a:hover:before{
+       width: 100px;
+}
+.Titulo__sobre{
+  margin-left: 20px;
+}
+
+.texto__sobre{
+  color: black;
+  margin-left: 25px;
+  font-size: 30px;
+  justify-content: center;
+  
+}
+.texto__inicio{
+  color: black;
+  margin-left: 25px;
+  font-size: 30px;
+  justify-content: center;
+  margin-left: 400px;
+}
+.subititulo__exp{
+ margin-left: 20px;
+ margin-top: 10px;
+ margin-bottom: 5px;
+} 
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
+ .info-perfil {
+      margin-bottom: 0px;
+    }
+    
+    .perfil-img {
+      float:left;
+      width: 100%;
+      max-width: 350px;
+      transform: scaleX(-1);
+      
+    }
+
+
+    div{
+      top: 10px;
+    }
+
+   
+    
+    .perfil-img-linea {
+      background-color: var(--secundary-color);
+      height: 15px;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 0;
+    }
+    
+    .perfil {
+      text-align: left;
+      justify-content: space-between;
+      max-width: 980px;
+      margin: 0 auto;
+      align-items: center;
+      
+    }
+    
+    .titulo-perfil {
+      font-size: 60px;
+      font-weight: bold;
+      margin-top: 80px;
+      color:black;
+    }
+    
+    
+    
+    .boton-perfil {
+      font-size: 28px;
+    }
+    .detalles-perfil{
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  
